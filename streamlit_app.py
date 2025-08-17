@@ -41,7 +41,7 @@ with tab1:
 # ----------------- Bulk Dataset Analysis -----------------
 with tab2:
     # Load file (your given file)
-    data = pd.read_csv(""C:\Users\jadha\Downloads\Restaurant_Reviews (1).tsv"", sep="\t")
+    data = pd.read_csv("C:\Users\jadha\Downloads\Restaurant_Reviews (1).tsv", sep="\t")
 
     if "Review" not in data.columns:
         st.error("❌ File must contain a column named 'Review'")
