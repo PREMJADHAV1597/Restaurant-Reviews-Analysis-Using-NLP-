@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 @st.cache_data
 def load_and_prepare_data():
     # Load dataset (TSV file with columns: Review, Liked)
-    data = pd.read_csv("sentiment_app/Restaurant_Reviews(1).tsv", sep="\t")
+    data = pd.read_csv("sentiment_app/Restaurant_Reviews (1).tsv", sep="\t")
 
 
     # Lowercasing
